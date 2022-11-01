@@ -1,0 +1,9 @@
+{
+  "name": "create-rads",
+  "version": "1.0.0",
+  "description": "An easy way to start rads project",
+  "main": "index.js",
+  "repository": "https://github.com/leo-buneev/create-rads.git",
+  "author": "Leonid Buneev <leo.buneev@gmail.com>",
+  "license": "MIT"
+}
