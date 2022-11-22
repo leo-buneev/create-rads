@@ -1,0 +1,48 @@
+# Azure functions local settings
+**/local.settings.json
+
+# rads
+schema-generated.d.ts
+components-generated.d.ts
+
+# code statistics
+/stats/
+
+# OS artifacts
+.DS_Store
+.thumbs.db
+desktop.ini
+
+# modules
+node_modules/
+
+# build results
+bin/
+obj/
+dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+
+# Editor directories and files
+.vs
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Folder used by VS extension "Local History"
+.history/
+
+# allow .gitkeep
+!.gitkeep

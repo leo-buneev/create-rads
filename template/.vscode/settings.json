@@ -1,0 +1,21 @@
+{
+  "editor.trimAutoWhitespace": false,
+  "editor.formatOnSave": false,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "dist": true,
+    ".idea": true
+  },
+  "search.exclude": {
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/*-generated.*": true,
+    ".idea": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["yaml", "graphql"],
+}

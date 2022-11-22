@@ -1,0 +1,1 @@
+export default 'Rads - Rapid Application Development System'

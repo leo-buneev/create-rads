@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "rads-ui": {
+      "matchCondition": {
+        "route": "api/rads-ui/{*any}"
+      },
+      "backendUri": "https://tcwebapp.z6.web.core.windows.net/master/rads-ui/{any}"
+    }
+  }
+}

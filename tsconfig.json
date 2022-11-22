@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/ts",
+    "baseUrl": ".",
+    "module": "ESNext",
+    "allowJs": true,
+    "target": "es2016",
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "strictNullChecks": false,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+  },
+  "exclude": ["dist", "node_modules", "babel.config.js"]
+}
